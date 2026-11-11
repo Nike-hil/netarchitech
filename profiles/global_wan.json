@@ -1,0 +1,15 @@
+{
+  "name": "Global WAN",
+  "topology_type": "multi_region_cloud",
+  "root_prefix": "10.200.0.0/16",
+  "link_distance_m": 850000,
+  "requested_media": "auto",
+  "num_subnets": 5,
+  "subnets": [
+    {"name": "Warehouse_Scanners_City1", "hosts_needed": 700},
+    {"name": "IoT_Fleet_City2", "hosts_needed": 600},
+    {"name": "Logistics_City3", "hosts_needed": 400},
+    {"name": "Distribution_City4", "hosts_needed": 300},
+    {"name": "Cloud_VPC_Services", "hosts_needed": 100}
+  ]
+}

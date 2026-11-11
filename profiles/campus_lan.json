@@ -1,0 +1,15 @@
+{
+  "name": "Campus LAN",
+  "topology_type": "enterprise_campus",
+  "root_prefix": "10.10.0.0/16",
+  "link_distance_m": 350,
+  "requested_media": "auto",
+  "num_subnets": 5,
+  "subnets": [
+    {"name": "Building_A_Users", "hosts_needed": 600},
+    {"name": "Building_B_Users", "hosts_needed": 500},
+    {"name": "Building_C_Users", "hosts_needed": 350},
+    {"name": "PoE_WLAN_APs", "hosts_needed": 100},
+    {"name": "Server_Farm", "hosts_needed": 50}
+  ]
+}

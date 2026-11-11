@@ -1,0 +1,13 @@
+{
+  "name": "Metro MAN",
+  "topology_type": "metro_colo",
+  "root_prefix": "172.16.0.0/19",
+  "link_distance_m": 22000,
+  "requested_media": "auto",
+  "num_subnets": 3,
+  "subnets": [
+    {"name": "FinTech_Colo_Traders", "hosts_needed": 250},
+    {"name": "HO_Operations", "hosts_needed": 120},
+    {"name": "Remote_Branch_Staff", "hosts_needed": 80}
+  ]
+}
